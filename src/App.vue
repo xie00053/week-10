@@ -3,7 +3,8 @@
 
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/product/:id">SingleProduct</router-link>
+      <router-link :to="{name: 'products-inventory'}">Inventory</router-link> |
+      <!-- <router-link to="/product/:id">SingleProduct</router-link> -->
     </div>
     <router-view />
   </div>
